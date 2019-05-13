@@ -4,7 +4,7 @@ public class ConnectionParam {
 
 	public static final String DRIVER="com.mysql.cj.jdbc.Driver";                             //"com.mysql.jdbc.Driver";
 	//public static final String URL="jdbc:mysql://localhost:3306/groupamountcalculator?useSSL=false";
-	public static final String URL="jdbc:mysql://mysql:3306/groupamountcalculator?useSSL=false";
+	public static final String URL="jdbc:mysql://10.130.24.1:3306/groupamountcalculator?useSSL=false";
 	public static final String USERNAME="useroeP";
 	public static final String PASSWORD="42DhoNOn";
 	
