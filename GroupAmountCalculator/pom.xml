@@ -41,6 +41,7 @@
 			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.15</version>
+			<!-- these are added to avoid error in openshift -->
 			<exclusions>
 				<exclusion>
 					<groupId>com.sun.jmx</groupId>
