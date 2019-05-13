@@ -39,7 +39,7 @@ public class SignUpDao {
 			conn = DriverManager.getConnection(DB_URL,USER,PASS);
 
 			logger.info("Creating statement...");
-			String sql = "INSERT INTO USER_DETAILS (USERNAME, PASSWORD, MAIL) VALUES (?,?,?)";
+			String sql = "INSERT INTO user_details (USERNAME, PASSWORD, MAIL) VALUES (?,?,?)";
 			stmt = conn.prepareStatement(sql);
 			stmt.setString(1, bean.getName());
 			stmt.setString(2, bean.getPassword());
