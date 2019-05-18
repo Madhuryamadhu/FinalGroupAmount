@@ -52,6 +52,8 @@ public class AmountDetailsDao {
 		Connection conn = null;
 		PreparedStatement stmt = null;
 		try {
+			
+			
 			final String JDBC_DRIVER = ConnectionParam.DRIVER;
 			final String DB_URL = ConnectionParam.URL;
 			final String USER = ConnectionParam.USERNAME;
